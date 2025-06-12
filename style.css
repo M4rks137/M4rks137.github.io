@@ -177,3 +177,28 @@ footer {
 .cv-btn i {
   margin-right: 7px;
 }
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;        /* Espaço entre foto e texto */
+  margin-bottom: 15px;
+}
+
+.profile-photo-small {
+  width: 100px;     /* ou o tamanho que preferir */
+  height: 100px;    
+  object-fit: cover;
+  border-radius: 50%; /* círculo; para quadrado remova esta linha */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.profile-info h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+.profile-info .tagline {
+  margin: 4px 0 0;
+  font-size: 1rem;
+  color: #666;
+}
