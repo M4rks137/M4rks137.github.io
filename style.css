@@ -92,13 +92,12 @@ h3 {
 }
 
 /* Contato */
-#contato a {
+#contact a {
   color: #1e293b;
   text-decoration: underline;
   transition: color 0.2s;
 }
-
-#contato a:hover {
+#contact a:hover {
   color: #f59e42;
 }
 
