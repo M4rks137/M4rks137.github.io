@@ -2,52 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Portfolio of Marcos Melo – QA Engineer specializing in Manual, API, and Performance Testing.">
   <title>Marcos Melo – QA Engineer</title>
   <link rel="stylesheet" href="style.css">
   <!-- Font Awesome for icons -->
-  <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
 </head>
 <body>
   <header>
     <div class="profile-header">
-      <img src="marcos_foto.jpg" alt="Photo of Marcos Melo" class="profile-photo-small">
+      <img
+        src="VIV6750-Editar.jpg"
+        alt="Photo of Marcos Melo"
+        class="profile-photo-small"
+      />
       <div class="profile-info">
         <h1>Marcos Melo</h1>
         <p class="tagline">
           Test Analyst & QA Engineer | Manual, API & Performance Testing | VTEX & E-commerce
         </p>
       </div>
-      <a href="Marcos-Melo-english-CV.pdf" class="cv-btn" download>
-      <i class="fa-solid fa-file-arrow-down"></i> Download CV
-    </a>
+      <div class="header-buttons">
+        <a href="mailto:marcos_s.z@outlook.com" class="icon-btn" title="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/marcos-melo-8009151a2/" target="_blank" rel="noopener" class="icon-btn" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="tel:+5511948316243" class="icon-btn" title="Phone">
+          <i class="fa-solid fa-phone"></i>
+        </a>
+        <a href="MarcosMelo-CV.pdf" class="cv-btn" download>
+          <i class="fa-solid fa-file-arrow-down"></i> Download CV
+        </a>
+      </div>
     </div>
+
     <nav>
       <a href="#about">About</a>
       <a href="#languages">Languages</a>
       <a href="#skills">Skills</a>
       <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
       <a href="#education">Education</a>
       <a href="#competencies">Core Competencies</a>
       <a href="#certifications">Certifications</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
+
   <main>
     <section id="about">
       <h2>👋 About Me</h2>
       <p>
-        I have extensive experience across multiple testing disciplines: API, functional, environment,
-        web, back-end and mobile testing, plus performance testing with JMeter. I’ve done log
-        analysis, deployment monitoring and performance monitoring using Zabbix and Grafana.
+        I have extensive experience across multiple testing disciplines: API, functional,
+        environment, web, back-end and mobile testing, plus performance testing with JMeter.
+        I’ve done log analysis, deployment monitoring and performance monitoring using Zabbix
+        and Grafana.
       </p>
       <p>
         I’m proficient with MySQL and SQL Server, and comfortable using tools like SoapUI,
-        Postman and Insomnia. To manage projects I rely on Jira, Trello and Confluence, following
-        agile frameworks (Scrum & Kanban).
+        Postman and Insomnia. To manage projects I rely on Jira, Trello and Confluence,
+        following agile frameworks (Scrum & Kanban).
       </p>
       <p>
         I hold an ISTQB Certified Tester Foundation Level (CTFL) certification and apply BDD
@@ -81,39 +103,150 @@
     </section>
 
     <section id="experience">
-      <h2>💼 Professional Experience</h2>
+  <h2>💼 Professional Experience</h2>
 
-      <h3>Novibet Gaming</h3>
-      <span>QA Engineer (Dec 2024 – Present)</span>
-      <ul>
-        <li>Test management in Xray on Jira, expanding coverage & traceability.</li>
-        <li>Automated C# test suites for regression & API validation.</li>
-        <li>Web & mobile testing with Selenium; daily stand-ups with Greek dev team.</li>
-        <li>Cross-team collaboration to prevent defects; integration of code coverage.</li>
-      </ul>
+  <div class="experience-item">
+    <h3>Novibet Gaming – QA Engineer</h3>
+    <span>Dec 2024 – Present | São Paulo & Athens (remote)</span>
+    <ul>
+      <li>Collaborate daily with a cross-border Greek development team, running stand-ups, refinements, and sprint planning entirely in English.</li>
+      <li>Own the full QA lifecycle for new Casino & Sportsbook features—writing test plans, acceptance criteria, and regression suites.</li>
+      <li>Develop integrated tests in <strong>C#</strong> using Reqnroll (BDD) and xUnit, achieving &gt;80 % coverage on critical services.</li>
+      <li>Automate web and mobile scenarios with <strong>Selenium</strong>, executing in parallel on BrowserStack to cut execution time by 40 %.</li>
+      <li>Manage requirements, traceability, and reporting in <strong>Jira + Xray</strong>, boosting defect-to-user-story linkage by 30 %.</li>
+      <li>Validate data flows across <strong>MongoDB</strong>, <strong>Redis</strong>, and <strong>Kafka</strong>; prevent high-risk race conditions in betting transactions.</li>
+    </ul>
+  </div>
 
-      <h3>Quality Digital</h3>
-      <span>QA Engineer (Feb 2024 – Dec 2024)</span>
-      <ul>
-        <li>Designed & executed test plans in Jira (functional, regression, UAT).</li>
-        <li>Performance testing with JMeter; real-time server monitoring & log analysis.</li>
-        <li>Mobile compatibility testing via BrowserStack; integration testing to reduce bugs.</li>
-      </ul>
+  <div class="experience-item">
+    <h3>Right Benefit – QA Engineer</h3>
+    <span>Mar 2022 – Feb 2024 | São Paulo</span>
+    <ul>
+      <li>Led QA for a public-transport payment & P2P transfer app deployed in Angola, covering Android, iOS, and web.</li>
+      <li>Designed & executed end-to-end, integration, and gateway tests for card transactions and internal transfers.</li>
+      <li>Automated regression flows with <strong>Selenium-Python</strong> and <strong>Appium</strong>, reducing manual effort by 60 %.</li>
+      <li>Performed load and stress testing using <strong>JMeter</strong>, uncovering bottlenecks that improved peak TPS by 25 %.</li>
+      <li>Monitored production-like environments via <strong>Zabbix</strong> & <strong>Grafana</strong>, delivering proactive performance dashboards.</li>
+      <li>Introduced Scrum ceremonies and a “shift-left” testing mindset, accelerating release cadence from monthly to bi-weekly.</li>
+    </ul>
+  </div>
 
-      <h3>MobiLeng Mobility</h3>
-      <span>QA Engineer (Jun 2023 – Feb 2024)</span>
-      <ul>
-        <li>Modeled test schedules and detailed result reporting.</li>
-        <li>Automated test scripts and provided actionable improvement suggestions.</li>
-      </ul>
+  <div class="experience-item">
+    <h3>MobiLeng Mobility – QA Engineer (Contract)</h3>
+    <span>Jun 2023 – Feb 2024 | São Paulo</span>
+    <ul>
+      <li>Tested a freelance-marketplace platform, executing black-box, usability, responsive and exploratory testing.</li>
+      <li>Created Cypress automation in JavaScript with GitHub Actions, cutting smoke-test time from 30 min to 5 min.</li>
+      <li>Produced detailed defect reports and UX improvement suggestions that raised client satisfaction by 15 %.</li>
+      <li>Established baseline accessibility checks (WCAG 2.1) to ensure inclusivity and compliance.</li>
+    </ul>
+  </div>
 
-      <h3>Right Benefit</h3>
-      <span>QA Engineer (Mar 2022 – Feb 2024)</span>
-      <ul>
-        <li>Manual & automated API/database testing; clear bug reporting.</li>
-        <li>Load/stress testing with JMeter on digital banking platform.</li>
-        <li>Server monitoring for SPTrans on Linux; performance tracking with Zabbix & Grafana.</li>
-      </ul>
+  <div class="experience-item">
+    <h3>Quality Digital – QA Engineer (FastShop)</h3>
+    <span>Feb 2024 – Dec 2024 | São Paulo</span>
+    <ul>
+      <li>Partnered with FastShop to launch its new VTEX-based e-commerce, guiding QA from requirements to production.</li>
+      <li>Planned and executed functional, performance, mobile, and API tests using Robot Framework, Insomnia, and JMeter.</li>
+      <li>Built a Cypress regression suite integrated into Jenkins CI, enabling nightly runs and zero-touch reporting.</li>
+      <li>Ensured cross-device compatibility via BrowserStack on 20+ browser/device combos.</li>
+      <li>Introduced AI-assisted test-case generation, reducing test-design time by 35 % and pre-release bugs by 25 %.</li>
+      <li>Maintained KPI dashboards for coverage and defect leakage that drove data-backed release decisions.</li>
+    </ul>
+  </div>
+</section>
+
+    <section id="projects">
+      <h2>🚀 Projects</h2>
+      <div class="projects-grid">
+
+        <!-- Right Benefit -->
+        <div class="project-card">
+          <div class="project-summary">
+            <h3>Right Benefit – Angola Public Transport Payment App</h3>
+            <span class="project-role">QA Engineer</span>
+            <p class="project-short">
+              Developed and tested a payment and P2P transfer app for Angola’s public transportation, integrating automation and agile methodologies.
+            </p>
+            <button class="project-toggle">See more</button>
+          </div>
+          <div class="project-details">
+            <p><strong>Responsibilities:</strong></p>
+            <ul>
+              <li>Manual integration & end-to-end testing on Android, iOS, and desktop.</li>
+              <li>Automated regression suites with Selenium (Python) & Appium.</li>
+              <li>Validated payment gateway requests and card/transfer flows.</li>
+              <li>Led QA adoption of Agile and built a quality-first culture.</li>
+            </ul>
+            <p><strong>Tools & Tech:</strong> Postman, Swagger, Robot Framework, SQL Server, BrowserStack, Git, Zabbix, Grafana, Selenium, Appium, Python.</p>
+          </div>
+        </div>
+
+        <!-- MobiLeng -->
+        <div class="project-card">
+          <div class="project-summary">
+            <h3>MobiLeng – Freelance Marketplace Platform</h3>
+            <span class="project-role">QA Engineer</span>
+            <p class="project-short">
+              Tested and automated a web platform for documentation and freelance job matching, focusing on user experience and accessibility.
+            </p>
+            <button class="project-toggle">See more</button>
+          </div>
+          <div class="project-details">
+            <p><strong>Responsibilities:</strong></p>
+            <ul>
+              <li>Black-box, usability, and responsive testing across browsers/devices.</li>
+              <li>Exploratory testing for edge-case discovery.</li>
+              <li>Automated main flows with Cypress and JavaScript (GitHub Actions).</li>
+            </ul>
+            <p><strong>Tools & Tech:</strong> Cypress, JavaScript, GitHub Actions, Chrome DevTools.</p>
+          </div>
+        </div>
+
+        <!-- Quality Digital -->
+        <div class="project-card">
+          <div class="project-summary">
+            <h3>Quality Digital – FastShop E-commerce (VTEX)</h3>
+            <span class="project-role">QA Engineer</span>
+            <p class="project-short">
+              End-to-end QA for FastShop’s e-commerce relaunch, leveraging automation, AI, and comprehensive testing on multiple devices.
+            </p>
+            <button class="project-toggle">See more</button>
+          </div>
+          <div class="project-details">
+            <p><strong>Responsibilities:</strong></p>
+            <ul>
+              <li>Functional, performance, mobile, and API integration testing.</li>
+              <li>Client alignment, risk mitigation, and test strategy planning.</li>
+              <li>Implemented AI-driven test case generation, reducing bugs and execution time.</li>
+              <li>Automated scenarios with Cypress; API tests with Robot Framework.</li>
+            </ul>
+            <p><strong>Tools & Tech:</strong> VTEX, JIRA, Xray, Cypress, Robot Framework, BrowserStack, Insomnia, Jitterbit, Postman, AI tools.</p>
+          </div>
+        </div>
+
+        <!-- Novibet -->
+        <div class="project-card">
+          <div class="project-summary">
+            <h3>Novibet – Casino & Sportsbook QA Automation</h3>
+            <span class="project-role">QA Engineer</span>
+            <p class="project-short">
+              Automated and managed testing for Casino & Sportsbook features with a cross-border team, using C#, Selenium, and modern QA best practices.
+            </p>
+            <button class="project-toggle">See more</button>
+          </div>
+          <div class="project-details">
+            <p><strong>Responsibilities:</strong></p>
+            <ul>
+              <li>Participated in daily English meetings with Greek devs.</li>
+              <li>Wrote test plans, BDD scenarios, and automated tests (C#, Reqnroll, Selenium).</li>
+              <li>Validated backend with MongoDB, Kafka UI, and Redis.</li>
+            </ul>
+            <p><strong>Tools & Tech:</strong> Visual Studio, C#, Selenium, Reqnroll, Postman, Swagger, MongoDB, Redis, Kafka UI, Jira, Xray, Robot Framework.</p>
+          </div>
+        </div>
+
+      </div>
     </section>
 
     <section id="education">
@@ -147,12 +280,32 @@
       <h2>📬 Contact</h2>
       <p>Email: <a href="mailto:marcos_s.z@outlook.com">marcos_s.z@outlook.com</a></p>
       <p>Phone: +55 11 94831-6243</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/marcos-melo-8009151a2/" target="_blank" rel="noopener">linkedin.com/in/marcos-melo-8009151a2</a></p>
+      <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/marcos-melo-8009151a2/" target="_blank" rel="noopener">
+          linkedin.com/in/marcos-melo-8009151a2
+        </a>
+      </p>
+      <p>
+        <a href="MarcosMelo-CV.pdf" class="cv-btn" download>
+          <i class="fa-solid fa-file-arrow-down"></i> Download CV (PDF)
+        </a>
+      </p>
     </section>
   </main>
 
   <footer>
     <p>© 2025 Marcos Melo – QA Portfolio</p>
   </footer>
+
+  <script>
+    document.querySelectorAll('.project-toggle').forEach(btn => {
+      btn.addEventListener('click', function() {
+        const card = btn.closest('.project-card');
+        card.classList.toggle('open');
+        btn.textContent = card.classList.contains('open') ? 'See less' : 'See more';
+      });
+    });
+  </script>
 </body>
 </html>
